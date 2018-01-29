@@ -3,9 +3,8 @@ package invoices
 import (
 	"bytes"
 	"encoding/json"
-	"net/http"
-
 	"fmt"
+	"net/http"
 )
 
 const (

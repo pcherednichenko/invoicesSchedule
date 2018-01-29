@@ -1,13 +1,12 @@
 package invoices
 
 import (
+	"encoding/json"
+	"io/ioutil"
 	"net/http"
 	"net/http/httptest"
 	"testing"
 	"time"
-
-	"encoding/json"
-	"io/ioutil"
 
 	"github.com/pcherednichenko/invoicesSchedule/app/customers"
 )
